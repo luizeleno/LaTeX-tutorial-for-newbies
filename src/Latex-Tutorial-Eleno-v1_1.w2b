@@ -460,6 +460,8 @@ As we can see, the mechanical properties of \sample{Ti2.5}{Al5} are not as high 
 * you can also use \verb\!\begin{figure}[htbp]\!, where @h@ (here), @t@ (top), @b@ (bottom) and @p@ (page) are indications to where \LaTeX{} should place your float (it will only follow your suggestion if and when it is possible)
 ** you can omit any of the @htbp@ letters, or even change their order
 
+* Notice the command \lstinline\!\url{webaddress}\! to format a clickable link to a webpage. You need to put \lstinline\!\usepackage{url}\! in the preamble to use this feature
+
 ==== Tabular material ====[containsverbatim]
 
 * Table floats are set in a @table@ environment
@@ -467,7 +469,7 @@ As we can see, the mechanical properties of \sample{Ti2.5}{Al5} are not as high 
 
 \begin{LTXexample}
 \begin{table}
-\caption{Taken from \url{http://phdcomics.com}}
+\caption{List of equipments and suppliers}
 \label{tab:dados}
 \centering
 \begin{tabular}{lcccc}
@@ -482,7 +484,7 @@ XRD & 2014 & Panalytical & Larry & A2\\
 \end{table}
 \end{LTXexample}
 
-* Notice again the  use of \verb\!\label\! to tag the table float.
+* Notice again the  use of \verb\!\label\! to tag the table float
 * The @[htbp]@ options are also available for tables
 
 == Math ==
