@@ -1,0 +1,695 @@
+<[autotemplate]
+
+usetheme={Ilmenau}
+setbeamertemplate={navigation symbols}{}
+setbeamertemplate={caption}[numbered]
+
+usefonttheme={serif}
+usefonttheme={professionalfonts}
+usepackage=[T1]{fontenc}
+usepackage={mathpazo}
+
+titleframe=False
+
+geometry={paperwidth=600px,paperheight=400px}
+
+usepackage=[utf8]{inputenc}
+usepackage=[nodayofweek]{datetime}
+usepackage={amsmath}
+usepackage={showexpl}
+usepackage={multicol}
+usepackage={framed}
+usepackage={quotmark}
+usepackage=[absolute,overlay]{textpos}
+usepackage={tikz}
+usepackage={tikzsymbols}
+
+pgfdeclareimage=[height=.2\textheight]{eel}{EEL-logo}
+
+graphicspath={{images/}}
+
+[autotemplate]>
+
+\setbeamertemplate{footline}{%
+\leavevmode%
+\hbox{%
+\begin{beamercolorbox}[wd=.4\paperwidth,ht=2.25ex,dp=1ex,center]{author in head/foot}%
+\usebeamerfont{author in head/foot}\insertshortauthor%
+\end{beamercolorbox}%
+\begin{beamercolorbox}[wd=.6\paperwidth,ht=2.25ex,dp=1ex]{title in head/foot}%
+\usebeamerfont{title in head/foot}\hskip 2mm\insertshorttitle\hfill%
+\insertframenumber{} / \inserttotalframenumber\hspace*{1ex}%
+\end{beamercolorbox}}%
+\vskip0pt%
+}
+
+\setlength{\TPHorizModule}{\textwidth}
+\setlength{\TPVertModule}{\textwidth}
+
+\lstset{explpreset={},%
+	hsep=6mm,%
+	breaklines=true,%
+	language=[LaTeX]TeX,%
+	postbreak=\raisebox{0ex}[0ex][0ex]{\ensuremath{\hookrightarrow\space}},%
+	basicstyle=\small\ttfamily,%
+	keywordstyle=\color{blue},%
+	commentstyle=\color{green\!60\!black},%
+	frame=single,%
+	numbers=left,%
+	numberstyle=\tiny,%
+	}
+
+\title{Creating documents in \LaTeX{} --- a basic tutorial}
+\author{Luiz T. F. Eleno}
+\institute[EEL--USP]{Departamento de Engenharia de Materiais\\Escola de Engenharia de Lorena\\Universidade de São Paulo (EEL--USP)\\Lorena (SP), Brazil\\[2mm] \includegraphics[width=25mm]{EEL-logo}}
+\newdate{apres}{18}{10}{2018}
+\date{Lorena, \displaydate{apres}}
+
+\frame{\titlepage}
+
+\frame{\frametitle{Contents}\begin{multicols}{2}\tableofcontents\end{multicols}}
+
+\let\orilabel\label
+
+== Preliminaries ==
+
+=== in the form of a prelude ===
+
+==== What is \LaTeX ====
+
+\centering
+
+{\Huge \LaTeX{} --- A document preparation system}
+
+-- 5mm --
+
+* \LaTeX{} is a ''markup'' language that allows you to write documents focusing on contents instead of formatting
+* You don't have to worry about fonts or section/figures/tables/citation numbering
+** \LaTeX{} will do it automatically for you
+* All formatting will be taken care of by ''packages'', or libraries you can load at the beginning of the document
+* ==> you can then focus on your text, which is the most important part of your document, leaving all the ``makeup'' to \LaTeX
+
+* \LaTeX{} follows the WYMIWYG (''What you MEAN is what you get'') concept
+** instead of the WYSIWYG (''what you SEE is what you get'') concept used by most word processors
+*** which, usually, are more like WYSIWYTYG (''what you see is what you THINK you get\ldots'')
+
+-- 5mm --
+
+\Springtree[10] \quad \Summertree[10] \quad \Autumntree[10] \quad \Wintertree[10]\\
+{\tiny (trees generated using the @tikzsymbols@ package)}
+
+==== Distributions ====
+
+* In order to run \LaTeX{} in your computer, you need a \LaTeX{} ''distribution''
+** There are several options; the two given below are the most widespread
+
+<[block]{Selected \LaTeX{} distributions:}
+* TeXLive (linux) --- \url{https://www.tug.org/texlive} \\ <<<texlive, height=20mm>>>
+* MikTeX (windows) --- \url{https://miktex.org} \\ <<<miktex, height=20mm>>>
+[block]>
+
+* All popular linus distributions (ubuntu, arch, opensuse, fedora, mandriva, etc.) have preset \LaTeX{} platforms in their repositories
+* Mik\TeX{} is also very easily installed on windows
+
+* There are also, nowadays, online \LaTeX{} platforms that you can use without download or install
+** but a very fast internet connection is recommended to avoid frustration and annoyance
+
+* The distributions listed above are free and open source
+
+==== Editors ====
+
+* A \LaTeX{} IDE (integrated development environment) is highly recommended, especially for newbies
+
+<[block]{Selected \LaTeX{} IDEs:}
+
+<[columns]
+
+[[[.5\textwidth]]]
+
+* TeXStudio --- \url{https://www.texstudio.org} \\ <<<texstudio, height=20mm>>>
+* TeXMaker --- \url{http://www.xm1math.net/texmaker} \\ <<<texmaker, height=20mm>>>
+* TeXWorks --- \url{http://www.tug.org/texworks} \\ <<<texworks, height=20mm>>>
+
+[[[.5\textwidth]]]
+
+* LyX --- \url{https://www.lyx.org} \\ <<<lyx, height=20mm>>>
+* Authorea (online) --- \url{https://www.authorea.com} \\ <<<authorea, height=20mm>>>
+* Overleaf (online) --- \url{https://www.overleaf.com} \\ <<<overleaf, height=20mm>>>
+
+[columns]>
+
+[block]>
+
+* To use any of them, you MUST first install a \LaTeX{} distribution
+** except the online IDEs, of course
+* All editors listed above are free; some are also open source
+
+== Structure ==[Structure]
+
+=== About the organization of a \LaTeX{} document ===
+
+==== Preamble and body ====[containsverbatim]
+
+* A typical \LaTeX{} document: a file with @.tex@ extension 
+* it has two major parts: a ''preamble'' and a ''body''
+<[lstlisting]
+\documentclass[options]{class type}
+
+% This is the document PREAMBLE
+% here go configuration packages and commands
+
+% all LaTeX commands start with a \ (backslash)
+% everything following a % is a comment
+% you can insert comments anywhere in the document
+% if you want a % to appear in your text, escape it using \%
+
+% the document class is always the first line of your document
+% you can define some options that affect the formatting of the chosen class type 
+% some class types: article, book, report
+% common options: 10pt|11pt|12pt (font size), oneside|twoside (use one or both sides of the paper)
+
+\begin{document}
+
+% This is the body of your document
+% Your text, tables, figures, etc. (generically, your content) go here
+
+\end{document}
+
+[lstlisting]>
+
+==== Packages ====[containsverbatim]
+
+* In the preamble are loaded packages (libraries) that affect and provide new commands
+** for instance, font packages, math packages, bibliography packages, etc.
+* Packages are loaded with the command \lstinline\!\usepackage[options]{package name}\!
+
+<[block]{A few useful examples:}
+
+* \lstinline\!\usepackage[a4paper, margin=20mm]{geometry}\! loads the @geometry@ package and sets the paper size to A4 and all margins to 20\,mm
+* \lstinline\!\usepackage[utf8]{inputenc}\! allows you to use accented characters (á, ã, ã, ä, ç, etc)
+** the option used (@utf8@) is for files set up with the unicode encoding (other encodings are also possible)
+** newest versions of \LaTeX{} are automatically set up for @utf8@ encoding (i.e., there is no need to call this package anymore)
+* \lstinline\!\usepackage{setspace}\! gives access to interline spacing
+** after loading the package, set the spacing used in the document with one of the following commands:
+**# \verb\!\singlespacing\! (default)
+**# \verb\!\onehalfspacing\!
+**# \verb\!\doublespacing\!
+* \lstinline\!\usepackage{graphicx}\! permits the inclusion of figures (jpg, png, eps, pdf, etc.) in the document 
+
+[block]>
+
+==== Non-english languages ====[containsverbatim]
+
+* \LaTeX{} automatically hyphenates your words
+* Also, a few words (like chapter, section, page, etc.) and formatted date are sometimes used
+** but the default language is American English
+* To change the language of the document, call the @babel@ package in the preamble
+
+% to use non-ascii characters in the UTF-8 encoding, if your language requires them
+% \usepackage[utf8]{inputenc}
+
+<[lstlisting]
+% to hyphenate and translate keywords to brazilian portuguese (for instance)
+\usepackage[brazil]{babel}
+
+[lstlisting]>
+
+==== Multi-file documents ====[containsverbatim]
+
+* Your document can be spread through multiple files
+* The master document calls other files with the \verb\!\input\! command:
+
+<[lstlisting]
+\documentclass[12pt]{article}
+
+% preamble
+
+\input{style.tex} % all packages and configuration commands
+
+\begin{document}
+
+% body
+
+\input{chapter1.tex}
+
+\input{chapter2.tex}
+
+\end{document}
+
+[lstlisting]>
+
+== Sectioning ==
+
+=== How to partition a \LaTeX{} document ===
+
+==== Document title ====[containsverbatim]
+
+* The title of your document comes from the following commands:
+<[lstlisting]
+\title{My article}
+\author{My name}
+\date{time I wrote it} % if not given, results in the \today command's output
+
+\maketitle % format and prints the title for you
+% optionally, include titlepage among the \documentclass options for a title cover
+[lstlisting]>
+
+\institute{}
+\date{\today}
+
+* If you're using the @beamer@ class (as I'm doing right now), you'll get something like this:
+
+\begin{LTXexample}
+\title{A wonderful talk}
+\author{presented by myself}
+
+\maketitle
+\end{LTXexample}
+
+* @title@, @author@ and @date@ can be either in the preamble or in the body of the document
+* @maketitle@ must be issued from within the body of the document
+
+==== Chapters, sections and subsections ====[containsverbatim]
+
+* Creating headings in your document is straightforward:
+
+<[lstlisting]
+\chapter{My chapter} % beware: the article class has no chapters!
+\label{cha:mycha}
+
+\section{A section}
+\label{sec:mysec}
+
+\subsection{A sub-section}
+\label{sub:mysubsec}
+
+\subsubsection{A sub-sub-section}
+\label{ssub:mysubsubsec}
+% And that's enough for most purposes!
+% If you really need more, there are packages that allow you to add more sublevels
+[lstlisting]>
+
+* We'll soon learn what is the purpose of the several \verb\!\label\! commands
+** they are optional and, for now, see them simply as tags to identify each heading
+
+==== Tables of contents ====[containsverbatim]
+
+* You can add tables of contents and  lists of tables and figures:
+
+<[lstlisting]
+\tableofcontents
+
+\listoffigures
+
+\listoftables
+[lstlisting]>
+
+* (Soon we'll see how to insert figures and tables to be shown in the lists above\!)
+
+== Formatting ==
+
+=== Changing appearances ===
+
+==== Typesetting a \LaTeX{} document ====[containsverbatim]
+
+* Basic typesetting: 
+** any amount of space between characters will be shortened to just one space character
+*** use \textasciitilde{} to add space (and \verb\!\textasciitilde{}\! if you want the \textasciitilde{} character)
+* leave any amount of blank lines to start a new paragraph
+
+\begin{LTXexample}
+This is a paragraph.
+
+And this is another.
+This is still in the same paragraph.
+
+One sentence, another sentence.
+
+One sentence,        another sentence.
+
+One longer paragraph, in order to see how \LaTeX{} breaks lines and keep going in the line below. And just some more text to make the paragraph even larger.
+
+This is a \\ linebreak.
+
+Finally, this is a \\[20mm] longer linebreak.
+\end{LTXexample}
+
+==== Basic formatting ====[containsverbatim]
+
+\begin{LTXexample}
+A normal paragraph.
+
+\begin{center}
+A centered paragraph.
+\end{center}
+
+Italics: \emph{italicized text}. 
+
+Bold text: \textbf{boldface text}.
+
+Font sizes: 
+
+{\tiny text} {\scriptsize text} {\footnotesize text} {\small text} {\normalsize text} {\large text} {\Large text} {\LARGE text} {\huge text} {\Huge text}
+
+Notice the use of curly braces as delimiters for the scope of action of a command. If you want them to appear in the text, escape them: \{ e \}
+
+\end{LTXexample}
+
+
+==== Environments ====[containsverbatim]
+
+* Two useful environments:
+** (''environments'' are constructions that format contents. They are invoked with a \lstinline\!\begin{env}\! \lstinline\!\end{env}\! clause)
+
+* Bullet lists --- @itemize@ environment:
+\begin{LTXexample}
+\begin{itemize}
+	\item Topic one
+	\begin{itemize}
+		\item A subtopic
+		\item and another
+	\end{itemize}
+	\item Topic two
+\end{itemize}
+\end{LTXexample}
+
+* Enumerated lists --- @enumerate@ environment:
+\begin{LTXexample}
+\begin{enumerate}
+	\item Topic one
+	\begin{enumerate}
+		\item A subtopic
+		\item and another
+	\end{enumerate}
+	\item Topic two
+\end{enumerate}
+\end{LTXexample}
+
+* ''Note:'' you can mix the two kinds of list, if you want
+
+==== Create and your own commands ====[containsverbatim]
+
+* Let's say you need to write something several times throughout your document
+** for instance, you have to write ``X-ray diffractometry'' quite a lot
+* It would be nice to create a shortcut:
+
+\begin{LTXexample}
+\newcommand{\XRD}{X-ray diffractometry}
+
+\XRD{} is a an experimental technique\ldots
+
+As we can see from the \XRD{} results, \ldots
+
+\end{LTXexample}
+
+* The ``\{\}'' after the call to the command is necessary, otherwise \LaTeX{} would not insert a space after it
+
+* Your commands can even have arguments:
+
+\begin{LTXexample}
+\newcommand{\sample}[2]{sample #1-#2}
+
+From the composition of \sample{2}{5}, we see that \ldots
+
+As we can see, the mechanical properties of \sample{Ti2.5}{Al5} are not as high as\ldots
+
+\end{LTXexample}
+
+* ''Note:'' The \verb\!\newcommand\! command is much more powerful than that\!
+* There is also a \verb\!\renewcommand\! command that can be used to redefine an existing one
+
+==== Fonts ====
+
+<[columns]
+
+[[[.4\textwidth]]]
+
+* There are lots of ways to change the fonts used in your document
+* It is usually better to trust a package to do it for you!
+* Consult the \LaTeX{} Font Catalogue (\url{http://www.tug.dk/FontCatalogue})
+
+[[[.6\textwidth]]]
+
+\centering
+<<<fontcatalogue,height=.9\textheight>>>
+
+[columns]>
+
+== Floats ==
+
+=== Illustrating your document ===
+
+==== Figures ====[containsverbatim]
+
+* Figures and tables are inserted in the text as ''floats''
+** so called because they are not part of the text flux, but are instead positioned as if hovering over the page
+** do not forget to include \lstinline\!\usepackage{graphicx}\! in the preamble if you plan to use figures\!
+
+\begin{LTXexample}
+\begin{figure} % it's an environment!
+\centering
+\includegraphics[width=.9\textwidth]{comic1.png}
+\caption{Taken from \url{http://phdcomics.com}}
+\label{fig:comics}
+\end{figure}
+\end{LTXexample}
+
+* ''Note:'' \verb\!\label\! is just a name you give to the float. 
+** you can use it to reference it in the text, as we'll see shortly
+
+* you can also use \verb\!\begin{figure}[htbp]\!, where @h@ (here), @t@ (top), @b@ (bottom) and @p@ (page) are indications to where \LaTeX{} should place your float (it will only follow your suggestion if and when it is possible)
+** you can omit any of the @htbp@ letters, or even change their order
+
+==== Tabular material ====[containsverbatim]
+
+* Table floats are set in a @table@ environment
+* The @tabular@ environment is used to typeset a table
+
+\begin{LTXexample}
+\begin{table}
+\caption{Taken from \url{http://phdcomics.com}}
+\label{tab:dados}
+\centering
+\begin{tabular}{lcccc}
+\hline
+Equipment & Year & Vendor & PIC & Location \\
+\hline
+MO & 2015 & Zeiss & Joe & A5\\
+MEV & 2012 & Hitachi & Moe & B3\\
+XRD & 2014 & Panalytical & Larry & A2\\
+\hline
+\end{tabular}
+\end{table}
+\end{LTXexample}
+
+* Notice again the  use of \verb\!\label\! to tag the table float.
+* The @[htbp]@ options are also available for tables
+
+== Math ==
+
+=== The strongest card in the \LaTeX{} pack  ===
+
+==== Inline and display math ====[containsverbatim]
+
+\small
+
+* There are inline (using \$ \$) and displayed formulas (with the @equation@ environment):
+
+\begin{LTXexample}[preset=\let\label\orilabel]
+A sphere of radius $R$ has a volume $V$ given by
+\begin{equation}
+V = \int_{0}^{2\pi} \int_{0}^{\pi} \int_{0}^{R} \rho^2 \sin \theta d\rho d\theta d\phi
+= \frac{4}{3} \pi R^3 \,.
+\label{eq:vol}
+\end{equation}
+It is not difficult to evaluate the integral, if you know what to do.
+\end{LTXexample}
+
+\begin{LTXexample}[preset=\let\label\orilabel]
+The sum of the first $n$ terms of an arithmetic progression is
+\begin{equation}
+S_{n} = \sum_{i=1}^{n} a_{i} = \frac{(a_{1}+a_{n})n}{2} \,,
+\end{equation}
+in which $a_{i}=a_{i-1} + (n-1) r$ (valid for $2 \le i \le n$, with $a_{1}$ and $r$ given constants). Legend has it that Gauss discovered this formula while still a schoolboy\ldots
+\end{LTXexample}
+
+==== Some more options ====[containsverbatim]
+
+* If you don't want to number a displayed equation, use \verb\!\[ \]\!, instead of the @equation@ environment
+
+\begin{LTXexample}[preset=\let\label\orilabel]
+The sum of the first $n$ terms of an arithmetic progression is given by 
+\[
+S_{n} = \sum_{i=1}^{n} a_{i} = \frac{(a_{1}+a_{n})n}{2} \,,
+\]
+in which $a_{i}=a_{i-1} + (n-1) r$ (valid for $2 \le i \le n$, with $a_{1}$ and $r$ given constants). Legend has it that Gauss discovered this formula while still a schoolboy\ldots
+\end{LTXexample}
+
+* The @amsmath@ package (as always, in the preamble) gives you access to lots of new math-related stuff 
+
+== Cross-references ==
+
+=== Referencing internally ===
+
+==== The @$\backslash$label@ --- @$\backslash$ref@ system ====[containsverbatim]
+
+\begin{LTXexample}[preset=\let\label\orilabel]
+\begin{figure}
+\centering
+\includegraphics[width=.6\textwidth]{comic-strip.jpg}
+\caption{Taken from \url{http://phdcomics.com}.}
+\label{fig:comic}
+\end{figure}
+\end{LTXexample}
+
+\begin{LTXexample}
+The situation we see depicted in Figure \ref{fig:comic} happens quite often in some cases\ldots
+\end{LTXexample}
+
+\begin{LTXexample}[preset=\let\label\orilabel]
+\begin{equation}
+e^{i \pi}  = -1
+\label{eq:euler}
+\end{equation}
+
+Equation (\ref{eq:euler}) was first derived by Euler.
+\end{LTXexample}
+
+* The @fig:@, @tab:@ or @eq:@ prefixes are not mandatory, but they are helpful to differentiate among the several kinds of stuff a label can point to (chapter, section, subsection, equation, list item, figure, table, etc., etc., etc.)
+* The \verb\!\pageref{lab}\! command gives you the page in which \verb\!\label{lab}\! is found
+
+== Citations ==
+
+=== Render unto C{\ae}sar --- Referencing externally ===
+
+==== Reference managers ====
+
+* I strongly recommend you use a reference manager to keep track of your bibliography. Below are two excellent choices that work virtually in any operating system
+
+<[block]{Selected reference managers:}
+
+* JabRef --- \url{http://www.jabref.org} \\ <<<jabref,height=15mm>>>
+* Mendeley --- \url{https://www.mendeley.com} \\ <<<mendeley,height=20mm>>>
+
+[block]>
+
+==== How to use Bib\TeX ====[containsverbatim]
+
+* The most widespread citation tool for \LaTeX{} is Bib\TeX{} (\url{http://www.bibtex.org})
+* all your bibliographical references should be in (one or more) @bib@ files
+
+Put the following commands where you want your list of references to appear:
+<[lstlisting]
+\bibliography{mybibfile}
+\bibliographystyle{plain} % there are dozens of styles to chose from
+[lstlisting]>
+
+* Then Bib\TeX{} does all the formatting work for you!
+
+==== A Bib\TeX{} example ====[containsverbatim]
+
+% \footnotesize
+
+\centering
+
+<[columns]
+% 
+[[[.5\textwidth]]]
+% 
+* For instance, let's say a file called @mybibfile.bib@ constains the following entry (among others):
+
+<[lstlisting]
+@article{ferreira2018,
+	author = {Ferreira, P. P. and Santos, F. B. and Machado, A. J. S. and Petrilli, H. M. and Eleno, L. T. F.},
+	journal = {Phys. Rev. B},
+	pages = {045126},
+	title = {Insights into the unconventional superconductivity in {HfV$_2$Ga$_4$} and {ScV$_2$Ga$_4$} from first-principles electronic-structure calculations},
+	volume = {98},
+	year = {2018}
+}
+[lstlisting]>
+
+[[[.5\textwidth]]]
+
+* You can cite it in your work with the \verb\!\cite\! command:
+
+<[lstlisting]
+\documentclass[11pt]{article}
+
+\begin{document}
+
+Ferreira et al. \cite{ferreira2018} have shown that\ldots
+
+\bibliography{mybibfile}
+\bibliographystyle{plain}
+
+\end{document}
+[lstlisting]>
+
+<[framed]
+<<<referencia,height=.2\textheight>>>
+[framed]>
+
+[columns]>
+
+
+== The ABN\TeX2 package ==[ABN\TeX2]
+
+=== If there's no way around\ldots === 
+
+==== ABN\TeX2 --- ABsurd Norms for \LaTeX ====
+
+\centering
+
+* Info only relevant to people working/studying in Brazil, mainly universities or research institutes
+
+<<<abntex,height=20mm>>>\\
+\url{https://www.abntex.net.br}
+
+* ABN\TeX2 will take care of all weird formatting required by ABNT (Brazilian Bureau of Standards) 
+* on their website (link above) you'll find templates and tutorials
+
+== Envoi ==
+
+=== Thank you for the music ===
+
+==== Acknowledgements ====
+\framesubtitle{Thank you for your attention!}
+
+<[center]
+
+{\Huge _red\!80\!black_ \LaTeX{} is fun. _ }
+
+-- 8mm --
+
+Find more help on:\\[2mm]
+<[tabular]{ccc}
+<<<stackoverflow,height=20mm>>> & 
+<<<ctan,height=20mm>>> & 
+<<<latexproject,height=20mm>>>\\
+\url{https://stackoverflow.com} & 
+\url{https://ctan.org} & 
+\url{https://www.latex-project.org}
+[tabular]>
+
+-- 8mm --
+
+Acknowledgements:\\[2mm]
+<[tabular]{ccc}
+<<<usp,height=10mm>>> & 
+<<<EEL-logo,height=12mm>>> &
+<<<ppgem,height=12mm>>> \\
+\url{http://www5.usp.br} &
+\url{http://site.eel.usp.br} & 
+\url{http://www.ppgem.eel.usp.br} 
+[tabular]>
+
+-- 6mm --
+
+{Questions, corrections, comments and suggestions: _blue_ \href{mailto:luizeleno@usp.br}{luizeleno\@usp.br} _ \\
+\url{http://www.demar.eel.usp.br/docente/150}}
+
+-- 3mm --
+
+{\scriptsize This is version 1.1 of the tutorial. It can be freely distributed, but please point to the original project on github: \url{https://github.com/luizeleno/LaTeX-tutorial-for-newbies}}
+[center]>
