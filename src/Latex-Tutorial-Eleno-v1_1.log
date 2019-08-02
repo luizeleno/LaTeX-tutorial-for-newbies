@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.3.20)  2 AUG 2019 16:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.3.20)  2 AUG 2019 16:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2779,9 +2779,9 @@ type1/public/mathpazo/fplmr.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
 ic/mathpazo/fplmri.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/
 uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb><
 /usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on Latex-Tutorial-Eleno-v1_1.pdf (27 pages, 1340514 bytes).
+Output written on Latex-Tutorial-Eleno-v1_1.pdf (27 pages, 1340286 bytes).
 PDF statistics:
- 1658 PDF objects out of 1728 (max. 8388607)
+ 1657 PDF objects out of 1728 (max. 8388607)
  1342 compressed objects within 14 object streams
  93 named destinations out of 1000 (max. 500000)
  344 words of extra memory for PDF output out of 10000 (max. 10000000)
