@@ -108,7 +108,7 @@ graphicspath={{images/}}
 * MikTeX (windows) --- \url{https://miktex.org} \\ <<<miktex, height=20mm>>>
 [block]>
 
-* All popular linus distributions (ubuntu, arch, opensuse, fedora, mandriva, etc.) have preset \LaTeX{} platforms in their repositories
+* All popular Linux distributions (ubuntu, arch, opensuse, fedora, mandriva, etc.) have preset \LaTeX{} platforms in their repositories
 * Mik\TeX{} is also very easily installed on windows
 
 * There are also, nowadays, online \LaTeX{} platforms that you can use without download or install
@@ -150,7 +150,7 @@ graphicspath={{images/}}
 
 ==== Preamble and body ====[containsverbatim]
 
-* A typical \LaTeX{} document: a file with @.tex@ extension 
+* A typical \LaTeX{} document: a file with @.tex@ extension
 * it has two major parts: a ''preamble'' and a ''body''
 <[lstlisting]
 \documentclass[options]{class type}
@@ -164,7 +164,7 @@ graphicspath={{images/}}
 % if you want a % to appear in your text, escape it using \%
 
 % the document class is always the first line of your document
-% you can define some options that affect the formatting of the chosen class type 
+% you can define some options that affect the formatting of the chosen class type
 % some class types: article, book, report
 % common options: 10pt|11pt|12pt (font size), oneside|twoside (use one or both sides of the paper)
 
@@ -194,7 +194,7 @@ graphicspath={{images/}}
 **# \verb\!\singlespacing\! (default)
 **# \verb\!\onehalfspacing\!
 **# \verb\!\doublespacing\!
-* \lstinline\!\usepackage{graphicx}\! permits the inclusion of figures (jpg, png, eps, pdf, etc.) in the document 
+* \lstinline\!\usepackage{graphicx}\! permits the inclusion of figures (jpg, png, eps, pdf, etc.) in the document
 
 [block]>
 
@@ -312,7 +312,7 @@ graphicspath={{images/}}
 
 ==== Typesetting a \LaTeX{} document ====[containsverbatim]
 
-* Basic typesetting: 
+* Basic typesetting:
 ** any amount of space between characters will be shortened to just one space character
 *** use \textasciitilde{} to add space (and \verb\!\textasciitilde{}\! if you want the \textasciitilde{} character)
 * leave any amount of blank lines to start a new paragraph
@@ -343,11 +343,11 @@ A normal paragraph.
 A centered paragraph.
 \end{center}
 
-Italics: \emph{italicized text}. 
+Italics: \emph{italicized text}.
 
 Bold text: \textbf{boldface text}.
 
-Font sizes: 
+Font sizes:
 
 {\tiny text} {\scriptsize text} {\footnotesize text} {\small text} {\normalsize text} {\large text} {\Large text} {\LARGE text} {\huge text} {\Huge text}
 
@@ -454,7 +454,7 @@ As we can see, the mechanical properties of \sample{Ti2.5}{Al5} are not as high 
 \end{figure}
 \end{LTXexample}
 
-* ''Note:'' \verb\!\label\! is just a name you give to the float. 
+* ''Note:'' \verb\!\label\! is just a name you give to the float.
 ** you can use it to reference it in the text, as we'll see shortly
 
 * you can also use \verb\!\begin{figure}[htbp]\!, where @h@ (here), @t@ (top), @b@ (bottom) and @p@ (page) are indications to where \LaTeX{} should place your float (it will only follow your suggestion if and when it is possible)
@@ -520,14 +520,14 @@ in which $a_{i}=a_{i-1} + (n-1) r$ (valid for $2 \le i \le n$, with $a_{1}$ and 
 * If you don't want to number a displayed equation, use \verb\!\[ \]\!, instead of the @equation@ environment
 
 \begin{LTXexample}[preset=\let\label\orilabel]
-The sum of the first $n$ terms of an arithmetic progression is given by 
+The sum of the first $n$ terms of an arithmetic progression is given by
 \[
 S_{n} = \sum_{i=1}^{n} a_{i} = \frac{(a_{1}+a_{n})n}{2} \,,
 \]
 in which $a_{i}=a_{i-1} + (n-1) r$ (valid for $2 \le i \le n$, with $a_{1}$ and $r$ given constants). Legend has it that Gauss discovered this formula while still a schoolboy\ldots
 \end{LTXexample}
 
-* The @amsmath@ package (as always, in the preamble) gives you access to lots of new math-related stuff 
+* The @amsmath@ package (as always, in the preamble) gives you access to lots of new math-related stuff
 
 == Cross-references ==
 
@@ -595,9 +595,9 @@ Put the following commands where you want your list of references to appear:
 \centering
 
 <[columns]
-% 
+%
 [[[.5\textwidth]]]
-% 
+%
 * For instance, let's say a file called @mybibfile.bib@ constains the following entry (among others):
 
 <[lstlisting]
@@ -637,7 +637,7 @@ Ferreira et al. \cite{ferreira2018} have shown that\ldots
 
 == The ABN\TeX2 package ==[ABN\TeX2]
 
-=== If there's no way around\ldots === 
+=== If there's no way around\ldots ===
 
 ==== ABN\TeX2 --- ABsurd Norms for \LaTeX ====
 
@@ -648,7 +648,7 @@ Ferreira et al. \cite{ferreira2018} have shown that\ldots
 <<<abntex,height=20mm>>>\\
 \url{https://www.abntex.net.br}
 
-* ABN\TeX2 will take care of all weird formatting required by ABNT (Brazilian Bureau of Standards) 
+* ABN\TeX2 will take care of all weird formatting required by ABNT (Brazilian Bureau of Standards)
 * on their website (link above) you'll find templates and tutorials
 
 == Envoi ==
@@ -666,11 +666,11 @@ Ferreira et al. \cite{ferreira2018} have shown that\ldots
 
 Find more help on:\\[2mm]
 <[tabular]{ccc}
-<<<stackoverflow,height=20mm>>> & 
-<<<ctan,height=20mm>>> & 
+<<<stackoverflow,height=20mm>>> &
+<<<ctan,height=20mm>>> &
 <<<latexproject,height=20mm>>>\\
-\url{https://stackoverflow.com} & 
-\url{https://ctan.org} & 
+\url{https://stackoverflow.com} &
+\url{https://ctan.org} &
 \url{https://www.latex-project.org}
 [tabular]>
 
@@ -678,12 +678,12 @@ Find more help on:\\[2mm]
 
 Acknowledgements:\\[2mm]
 <[tabular]{ccc}
-<<<usp,height=10mm>>> & 
+<<<usp,height=10mm>>> &
 <<<EEL-logo,height=12mm>>> &
 <<<ppgem,height=12mm>>> \\
 \url{http://www5.usp.br} &
-\url{http://site.eel.usp.br} & 
-\url{http://www.ppgem.eel.usp.br} 
+\url{http://site.eel.usp.br} &
+\url{http://www.ppgem.eel.usp.br}
 [tabular]>
 
 -- 6mm --
