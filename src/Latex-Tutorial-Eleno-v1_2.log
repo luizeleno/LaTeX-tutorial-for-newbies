@@ -1,0 +1,1921 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/TeX Live for SUSE Linux) (preloaded format=pdflatex 2019.11.16)  4 MAR 2020 20:18
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**Latex-Tutorial-Eleno-v1_2.tex
+(./Latex-Tutorial-Eleno-v1_2.tex
+LaTeX2e <2018-12-01>
+(/usr/share/texmf/tex/latex/beamer/beamer.cls
+Document Class: beamer 2018/12/02 v3.55 A class for typesetting presentations
+(/usr/share/texmf/tex/latex/beamer/beamerbasemodes.sty
+(/usr/share/texmf/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2018/08/19 v2.5f e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count80
+)
+\beamer@tempbox=\box27
+\beamer@tempcount=\count81
+\c@beamerpauses=\count82
+
+(/usr/share/texmf/tex/latex/beamer/beamerbasedecode.sty
+\beamer@slideinframe=\count83
+\beamer@minimum=\count84
+)
+\beamer@commentbox=\box28
+\beamer@modecount=\count85
+)
+(/usr/share/texmf/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+)
+\headdp=\dimen102
+\footheight=\dimen103
+\sidebarheight=\dimen104
+\beamer@tempdim=\dimen105
+\beamer@finalheight=\dimen106
+\beamer@animht=\dimen107
+\beamer@animdp=\dimen108
+\beamer@animwd=\dimen109
+\beamer@leftmargin=\dimen110
+\beamer@rightmargin=\dimen111
+\beamer@leftsidebar=\dimen112
+\beamer@rightsidebar=\dimen113
+\beamer@boxsize=\dimen114
+\beamer@vboxoffset=\dimen115
+\beamer@descdefault=\dimen116
+\beamer@descriptionwidth=\dimen117
+\beamer@lastskip=\skip41
+\beamer@areabox=\box29
+\beamer@animcurrent=\box30
+\beamer@animshowbox=\box31
+\beamer@sectionbox=\box32
+\beamer@logobox=\box33
+\beamer@linebox=\box34
+\beamer@sectioncount=\count86
+\beamer@subsubsectionmax=\count87
+\beamer@subsectionmax=\count88
+\beamer@sectionmax=\count89
+\beamer@totalheads=\count90
+\beamer@headcounter=\count91
+\beamer@partstartpage=\count92
+\beamer@sectionstartpage=\count93
+\beamer@subsectionstartpage=\count94
+\beamer@animationtempa=\count95
+\beamer@animationtempb=\count96
+\beamer@xpos=\count97
+\beamer@ypos=\count98
+\beamer@ypos@offset=\count99
+\beamer@showpartnumber=\count100
+\beamer@currentsubsection=\count101
+\beamer@coveringdepth=\count102
+\beamer@sectionadjust=\count103
+\beamer@tocsectionnumber=\count104
+
+(/usr/share/texmf/tex/latex/beamer/beamerbaseoptions.sty
+(/usr/share/texmf/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+))
+\beamer@paperwidth=\skip42
+\beamer@paperheight=\skip43
+
+(/usr/share/texmf/tex/latex/geometry/geometry.sty
+Package: geometry 2018/04/16 v5.8 Page Geometry
+
+(/usr/share/texmf/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/share/texmf/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count105
+\Gm@cntv=\count106
+\c@Gm@tempcnt=\count107
+\Gm@bindingoffset=\dimen118
+\Gm@wd@mp=\dimen119
+\Gm@odd@mp=\dimen120
+\Gm@even@mp=\dimen121
+\Gm@layoutwidth=\dimen122
+\Gm@layoutheight=\dimen123
+\Gm@layouthoffset=\dimen124
+\Gm@layoutvoffset=\dimen125
+\Gm@dimlist=\toks15
+)
+(/usr/share/texmf/tex/latex/base/size11.clo
+File: size11.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
+)
+(/usr/share/texmf/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/share/texmf/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/share/texmf/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+(/usr/share/texmf/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen126
+\Gin@req@width=\dimen127
+)
+(/usr/share/texmf/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/share/texmf/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks16
+\pgfutil@tempdima=\dimen128
+\pgfutil@tempdimb=\dimen129
+
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfutil-common-lists.tex))
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box35
+
+(/usr/share/texmf/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfrcs.code.tex
+(/usr/share/texmf/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2019/02/02 v3.1.1 (3.1.1)
+))
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2019/02/02 v3.1.1 (3.1.1)
+
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks17
+\pgfkeys@temptoks=\toks18
+
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
+\pgfkeys@tmptoks=\toks19
+))
+\pgf@x=\dimen130
+\pgf@y=\dimen131
+\pgf@xa=\dimen132
+\pgf@ya=\dimen133
+\pgf@xb=\dimen134
+\pgf@yb=\dimen135
+\pgf@xc=\dimen136
+\pgf@yc=\dimen137
+\w@pgf@writea=\write3
+\r@pgf@reada=\read1
+\c@pgf@counta=\count108
+\c@pgf@countb=\count109
+\c@pgf@countc=\count110
+\c@pgf@countd=\count111
+\t@pgf@toka=\toks20
+\t@pgf@tokb=\toks21
+\t@pgf@tokc=\toks22
+\pgf@sys@id@count=\count112
+
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2019/02/02 v3.1.1 (3.1.1)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2019/02/02 v3.1.1 (3.1.1)
+
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2019/02/02 v3.1.1 (3.1.1)
+)))
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2019/02/02 v3.1.1 (3.1.1)
+\pgfsyssoftpath@smallbuffer@items=\count113
+\pgfsyssoftpath@bigbuffer@items=\count114
+)
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2019/02/02 v3.1.1 (3.1.1)
+))
+(/usr/share/texmf/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/share/texmf/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2019/02/02 v3.1.1 (3.1.1)
+
+(/usr/share/texmf/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen138
+\pgfmath@count=\count115
+\pgfmath@box=\box36
+\pgfmath@toks=\toks23
+\pgfmath@stack@operand=\toks24
+\pgfmath@stack@operation=\toks25
+)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.code.tex
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.random.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.base.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.round.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code
+.tex))) (/usr/share/texmf/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count116
+))
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2019/02/02 v3.1.1 (3.1.1)
+\pgf@picminx=\dimen139
+\pgf@picmaxx=\dimen140
+\pgf@picminy=\dimen141
+\pgf@picmaxy=\dimen142
+\pgf@pathminx=\dimen143
+\pgf@pathmaxx=\dimen144
+\pgf@pathminy=\dimen145
+\pgf@pathmaxy=\dimen146
+\pgf@xx=\dimen147
+\pgf@xy=\dimen148
+\pgf@yx=\dimen149
+\pgf@yy=\dimen150
+\pgf@zx=\dimen151
+\pgf@zy=\dimen152
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2019/02/02 v3.1.1 (3.1.1)
+\pgf@path@lastx=\dimen153
+\pgf@path@lasty=\dimen154
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2019/02/02 v3.1.1 (3.1.1)
+\pgf@shorten@end@additional=\dimen155
+\pgf@shorten@start@additional=\dimen156
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2019/02/02 v3.1.1 (3.1.1)
+\pgfpic=\box37
+\pgf@hbox=\box38
+\pgf@layerbox@main=\box39
+\pgf@picture@serial@count=\count117
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2019/02/02 v3.1.1 (3.1.1)
+\pgflinewidth=\dimen157
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2019/02/02 v3.1.1 (3.1.1)
+\pgf@pt@x=\dimen158
+\pgf@pt@y=\dimen159
+\pgf@pt@temp=\dimen160
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2019/02/02 v3.1.1 (3.1.1)
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2019/02/02 v3.1.1 (3.1.1)
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2019/02/02 v3.1.1 (3.1.1)
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2019/02/02 v3.1.1 (3.1.1)
+\pgfarrowsep=\dimen161
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2019/02/02 v3.1.1 (3.1.1)
+\pgf@max=\dimen162
+\pgf@sys@shading@range@num=\count118
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2019/02/02 v3.1.1 (3.1.1)
+
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2019/02/02 v3.1.1 (3.1.1)
+\pgfexternal@startupbox=\box40
+))
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2019/02/02 v3.1.1 (3.1.1)
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2019/02/02 v3.1.1 (3.1.1)
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2019/02/02 v3.1.1 (3.1.1)
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2019/02/02 v3.1.1 (3.1.1)
+)))
+(/usr/share/texmf/tex/latex/pgf/utilities/xxcolor.sty
+Package: xxcolor 2003/10/24 ver 0.1
+\XC@nummixins=\count119
+\XC@countmixins=\count120
+)
+(/usr/share/texmf/tex/generic/oberdiek/atbegshi.sty
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+
+(/usr/share/texmf/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(/usr/share/texmf/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+))
+(/usr/share/texmf/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2018/11/30 v6.88e Hypertext links for LaTeX
+
+(/usr/share/texmf/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+
+
+(/usr/share/texmf/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package hobsub Info: Skipping package `ifvtex' (already loaded).
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package hobsub Info: Skipping package `atbegshi' (already loaded).
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+)
+(/usr/share/texmf/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)
+(/usr/share/texmf/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+)
+\@linkdim=\dimen163
+\Hy@linkcounter=\count121
+\Hy@pagecounter=\count122
+
+(/usr/share/texmf/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2018/11/30 v6.88e Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+\Hy@SavedSpaceFactor=\count123
+
+(/usr/share/texmf/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Option `bookmarks' set `true' on input line 4393.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 4393.
+Package hyperref Info: Option `implicit' set `false' on input line 4393.
+Package hyperref Info: Hyper figures OFF on input line 4519.
+Package hyperref Info: Link nesting OFF on input line 4524.
+Package hyperref Info: Hyper index ON on input line 4527.
+Package hyperref Info: Plain pages OFF on input line 4534.
+Package hyperref Info: Backreferencing OFF on input line 4539.
+Package hyperref Info: Implicit mode OFF; no redefinition of LaTeX internals.
+Package hyperref Info: Bookmarks ON on input line 4772.
+\c@Hy@tempcnt=\count124
+
+(/usr/share/texmf/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5125.
+\XeTeXLinkMargin=\dimen164
+\Fld@menulength=\count125
+\Field@Width=\dimen165
+\Fld@charsize=\dimen166
+Package hyperref Info: Hyper figures OFF on input line 6380.
+Package hyperref Info: Link nesting OFF on input line 6385.
+Package hyperref Info: Hyper index ON on input line 6388.
+Package hyperref Info: backreferencing OFF on input line 6395.
+Package hyperref Info: Link coloring OFF on input line 6400.
+Package hyperref Info: Link coloring with OCG OFF on input line 6405.
+Package hyperref Info: PDF/A mode OFF on input line 6410.
+LaTeX Info: Redefining \ref on input line 6450.
+LaTeX Info: Redefining \pageref on input line 6454.
+\Hy@abspage=\count126
+
+
+Package hyperref Message: Stopped early.
+
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+ (/usr/share/texmf/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2018/11/30 v6.88e Hyperref driver for pdfTeX
+\Fld@listcount=\count127
+\c@bookmark@seq@number=\count128
+
+(/usr/share/texmf/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+))
+(/usr/share/texmf/tex/latex/beamer/beamerbaserequires.sty
+(/usr/share/texmf/tex/latex/beamer/beamerbasecompatibility.sty)
+(/usr/share/texmf/tex/latex/beamer/beamerbasefont.sty
+(/usr/share/texmf/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/share/texmf/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks26
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/share/texmf/tex/latex/sansmathaccent/sansmathaccent.sty
+Package: sansmathaccent 2013/03/28
+
+(/usr/share/texmf/tex/latex/filehook/filehook.sty
+Package: filehook 2011/10/12 v0.5d Hooks for input files
+)))
+(/usr/share/texmf/tex/latex/beamer/beamerbasetranslator.sty
+(/usr/share/texmf/tex/latex/translator/translator.sty
+Package: translator 2018/01/04 v1.12 Easy translation of strings in LaTeX
+))
+(/usr/share/texmf/tex/latex/beamer/beamerbasemisc.sty)
+(/usr/share/texmf/tex/latex/beamer/beamerbasetwoscreens.sty)
+(/usr/share/texmf/tex/latex/beamer/beamerbaseoverlay.sty
+\beamer@argscount=\count129
+\beamer@lastskipcover=\skip44
+\beamer@trivlistdepth=\count130
+)
+(/usr/share/texmf/tex/latex/beamer/beamerbasetitle.sty)
+(/usr/share/texmf/tex/latex/beamer/beamerbasesection.sty
+\c@lecture=\count131
+\c@part=\count132
+\c@section=\count133
+\c@subsection=\count134
+\c@subsubsection=\count135
+)
+(/usr/share/texmf/tex/latex/beamer/beamerbaseframe.sty
+\beamer@framebox=\box41
+\beamer@frametitlebox=\box42
+\beamer@zoombox=\box43
+\beamer@zoomcount=\count136
+\beamer@zoomframecount=\count137
+\beamer@frametextheight=\dimen167
+\c@subsectionslide=\count138
+\beamer@frametopskip=\skip45
+\beamer@framebottomskip=\skip46
+\beamer@frametopskipautobreak=\skip47
+\beamer@framebottomskipautobreak=\skip48
+\beamer@envbody=\toks27
+\framewidth=\dimen168
+\c@framenumber=\count139
+)
+(/usr/share/texmf/tex/latex/beamer/beamerbaseverbatim.sty
+\beamer@verbatimfileout=\write4
+)
+(/usr/share/texmf/tex/latex/beamer/beamerbaseframesize.sty
+\beamer@splitbox=\box44
+\beamer@autobreakcount=\count140
+\beamer@autobreaklastheight=\dimen169
+\beamer@frametitletoks=\toks28
+\beamer@framesubtitletoks=\toks29
+)
+(/usr/share/texmf/tex/latex/beamer/beamerbaseframecomponents.sty
+\beamer@footins=\box45
+)
+(/usr/share/texmf/tex/latex/beamer/beamerbasecolor.sty)
+(/usr/share/texmf/tex/latex/beamer/beamerbasenotes.sty
+\beamer@frameboxcopy=\box46
+)
+(/usr/share/texmf/tex/latex/beamer/beamerbasetoc.sty)
+(/usr/share/texmf/tex/latex/beamer/beamerbasetemplates.sty
+\beamer@sbttoks=\toks30
+
+(/usr/share/texmf/tex/latex/beamer/beamerbaseauxtemplates.sty
+(/usr/share/texmf/tex/latex/beamer/beamerbaseboxes.sty
+\bmb@box=\box47
+\bmb@colorbox=\box48
+\bmb@boxshadow=\box49
+\bmb@boxshadowball=\box50
+\bmb@boxshadowballlarge=\box51
+\bmb@temp=\dimen170
+\bmb@dima=\dimen171
+\bmb@dimb=\dimen172
+\bmb@prevheight=\dimen173
+)
+\beamer@blockheadheight=\dimen174
+))
+(/usr/share/texmf/tex/latex/beamer/beamerbaselocalstructure.sty
+(/usr/share/texmf/tex/latex/tools/enumerate.sty
+Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
+\@enLab=\toks31
+)
+\c@figure=\count141
+\c@table=\count142
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+)
+(/usr/share/texmf/tex/latex/beamer/beamerbasenavigation.sty
+\beamer@section@min@dim=\dimen175
+)
+(/usr/share/texmf/tex/latex/beamer/beamerbasetheorems.sty
+(/usr/share/texmf/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2018/12/01 v2.17b AMS math features
+\@mathmargin=\skip51
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texmf/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/share/texmf/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks32
+\ex@=\dimen176
+))
+(/usr/share/texmf/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen177
+)
+(/usr/share/texmf/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count143
+LaTeX Info: Redefining \frac on input line 223.
+\uproot@=\count144
+\leftroot@=\count145
+LaTeX Info: Redefining \overline on input line 385.
+\classnum@=\count146
+\DOTSCASE@=\count147
+LaTeX Info: Redefining \ldots on input line 482.
+LaTeX Info: Redefining \dots on input line 485.
+LaTeX Info: Redefining \cdots on input line 606.
+\Mathstrutbox@=\box52
+\strutbox@=\box53
+\big@size=\dimen178
+LaTeX Font Info:    Redeclaring font encoding OML on input line 729.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
+\macc@depth=\count148
+\c@MaxMatrixCols=\count149
+\dotsspace@=\muskip11
+\c@parentequation=\count150
+\dspbrk@lvl=\count151
+\tag@help=\toks33
+\row@=\count152
+\column@=\count153
+\maxfields@=\count154
+\andhelp@=\toks34
+\eqnshift@=\dimen179
+\alignsep@=\dimen180
+\tagshift@=\dimen181
+\tagwidth@=\dimen182
+\totwidth@=\dimen183
+\lineht@=\dimen184
+\@envbody=\toks35
+\multlinegap=\skip52
+\multlinetaggap=\skip53
+\mathdisplay@stack=\toks36
+LaTeX Info: Redefining \[ on input line 2844.
+LaTeX Info: Redefining \] on input line 2845.
+)
+(/usr/share/texmf/tex/latex/amscls/amsthm.sty
+Package: amsthm 2017/10/31 v2.20.4
+\thm@style=\toks37
+\thm@bodyfont=\toks38
+\thm@headfont=\toks39
+\thm@notefont=\toks40
+\thm@headpunct=\toks41
+\thm@preskip=\skip54
+\thm@postskip=\skip55
+\thm@headsep=\skip56
+\dth@everypar=\toks42
+)
+\c@theorem=\count155
+)
+(/usr/share/texmf/tex/latex/beamer/beamerbasethemes.sty))
+(/usr/share/texmf/tex/latex/beamer/beamerthemedefault.sty
+(/usr/share/texmf/tex/latex/beamer/beamerfontthemedefault.sty)
+(/usr/share/texmf/tex/latex/beamer/beamercolorthemedefault.sty)
+(/usr/share/texmf/tex/latex/beamer/beamerinnerthemedefault.sty
+\beamer@dima=\dimen185
+\beamer@dimb=\dimen186
+)
+(/usr/share/texmf/tex/latex/beamer/beamerouterthemedefault.sty)))
+(/usr/share/texmf/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/share/texmf/tex/latex/pgf/basiclayer/pgf.sty
+Package: pgf 2019/02/02 v3.1.1 (3.1.1)
+
+(/usr/share/texmf/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2019/02/02 v3.1.1 (3.1.1)
+\pgfnodeparttextbox=\box54
+)
+(/usr/share/texmf/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2019/02/02 v3.1.1 (3.1.1)
+)
+(/usr/share/texmf/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2019/02/02 v3.1.1 (3.1.1)
+\pgf@nodesepstart=\dimen187
+\pgf@nodesepend=\dimen188
+)
+(/usr/share/texmf/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2019/02/02 v3.1.1 (3.1.1)
+))
+(/usr/share/texmf/tex/latex/pgf/utilities/pgffor.sty
+(/usr/share/texmf/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfkeys.code.tex))
+(/usr/share/texmf/tex/latex/pgf/math/pgfmath.sty
+(/usr/share/texmf/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/share/texmf/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2019/02/02 v3.1.1 (3.1.1)
+
+(/usr/share/texmf/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen189
+\pgffor@skip=\dimen190
+\pgffor@stack=\toks43
+\pgffor@toks=\toks44
+))
+(/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2019/02/02 v3.1.1 (3.1.1)
+
+(/usr/share/texmf/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2019/02/02 v3.1.1 (3.1.1)
+\pgf@plot@mark@count=\count156
+\pgfplotmarksize=\dimen191
+)
+\tikz@lastx=\dimen192
+\tikz@lasty=\dimen193
+\tikz@lastxsaved=\dimen194
+\tikz@lastysaved=\dimen195
+\tikzleveldistance=\dimen196
+\tikzsiblingdistance=\dimen197
+\tikz@figbox=\box55
+\tikz@figbox@bg=\box56
+\tikz@tempbox=\box57
+\tikz@tempbox@bg=\box58
+\tikztreelevel=\count157
+\tikznumberofchildren=\count158
+\tikznumberofcurrentchild=\count159
+\tikz@fig@count=\count160
+
+(/usr/share/texmf/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2019/02/02 v3.1.1 (3.1.1)
+\pgfmatrixcurrentrow=\count161
+\pgfmatrixcurrentcolumn=\count162
+\pgf@matrix@numberofcolumns=\count163
+)
+\tikz@expandcount=\count164
+
+(/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopat
+hs.code.tex
+File: tikzlibrarytopaths.code.tex 2019/02/02 v3.1.1 (3.1.1)
+))) (/usr/share/texmf/tex/latex/tools/multicol.sty
+Package: multicol 2018/12/27 v1.8v multicolumn formatting (FMi)
+\c@tracingmulticols=\count165
+\mult@box=\box59
+\multicol@leftmargin=\dimen198
+\c@unbalance=\count166
+\c@collectmore=\count167
+\doublecol@number=\count168
+\multicoltolerance=\count169
+\multicolpretolerance=\count170
+\full@width=\dimen199
+\page@free=\dimen256
+\premulticols=\dimen257
+\postmulticols=\dimen258
+\multicolsep=\skip57
+\multicolbaselineskip=\skip58
+\partial@page=\box60
+\last@line=\box61
+\maxbalancingoverflow=\dimen259
+\mult@rightbox=\box62
+\mult@grightbox=\box63
+\mult@gfirstbox=\box64
+\mult@firstbox=\box65
+\@tempa=\box66
+\@tempa=\box67
+\@tempa=\box68
+\@tempa=\box69
+\@tempa=\box70
+\@tempa=\box71
+\@tempa=\box72
+\@tempa=\box73
+\@tempa=\box74
+\@tempa=\box75
+\@tempa=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\c@columnbadness=\count171
+\c@finalcolumnbadness=\count172
+\last@try=\dimen260
+\multicolovershoot=\dimen261
+\multicolundershoot=\dimen262
+\mult@nat@firstbox=\box83
+\colbreak@box=\box84
+\mc@col@check@num=\count173
+)
+(/usr/share/texmf/tex/latex/tikzsymbols/tikzsymbols.sty
+(/usr/share/texmf/tex/latex/l3packages/xparse/xparse.sty
+(/usr/share/texmf/tex/latex/l3kernel/expl3.sty
+Package: expl3 2019-04-06 L3 programming layer (loader) 
+
+(/usr/share/texmf/tex/latex/l3kernel/expl3-code.tex
+Package: expl3 2019-04-06 L3 programming layer (code)
+\c_max_int=\count174
+\l_tmpa_int=\count175
+\l_tmpb_int=\count176
+\g_tmpa_int=\count177
+\g_tmpb_int=\count178
+\g__kernel_prg_map_int=\count179
+\c__ior_term_ior=\count180
+\c_log_iow=\count181
+\l_iow_line_count_int=\count182
+\l__iow_line_target_int=\count183
+\l__iow_one_indent_int=\count184
+\l__iow_indent_int=\count185
+\c_zero_dim=\dimen263
+\c_max_dim=\dimen264
+\l_tmpa_dim=\dimen265
+\l_tmpb_dim=\dimen266
+\g_tmpa_dim=\dimen267
+\g_tmpb_dim=\dimen268
+\c_zero_skip=\skip59
+\c_max_skip=\skip60
+\l_tmpa_skip=\skip61
+\l_tmpb_skip=\skip62
+\g_tmpa_skip=\skip63
+\g_tmpb_skip=\skip64
+\c_zero_muskip=\muskip12
+\c_max_muskip=\muskip13
+\l_tmpa_muskip=\muskip14
+\l_tmpb_muskip=\muskip15
+\g_tmpa_muskip=\muskip16
+\g_tmpb_muskip=\muskip17
+\l_keys_choice_int=\count186
+\l__intarray_loop_int=\count187
+\c__intarray_sp_dim=\dimen269
+\g__intarray_font_int=\count188
+\c__fp_leading_shift_int=\count189
+\c__fp_middle_shift_int=\count190
+\c__fp_trailing_shift_int=\count191
+\c__fp_big_leading_shift_int=\count192
+\c__fp_big_middle_shift_int=\count193
+\c__fp_big_trailing_shift_int=\count194
+\c__fp_Bigg_leading_shift_int=\count195
+\c__fp_Bigg_middle_shift_int=\count196
+\c__fp_Bigg_trailing_shift_int=\count197
+\c__kernel_randint_max_int=\count198
+\g__fp_array_int=\count199
+\l__fp_array_loop_int=\count266
+\l__sort_length_int=\count267
+\l__sort_min_int=\count268
+\l__sort_top_int=\count269
+\l__sort_max_int=\count270
+\l__sort_true_max_int=\count271
+\l__sort_block_int=\count272
+\l__sort_begin_int=\count273
+\l__sort_end_int=\count274
+\l__sort_A_int=\count275
+\l__sort_B_int=\count276
+\l__sort_C_int=\count277
+\l__tl_analysis_normal_int=\count278
+\l__tl_analysis_index_int=\count279
+\l__tl_analysis_nesting_int=\count280
+\l__tl_analysis_type_int=\count281
+\l__regex_internal_a_int=\count282
+\l__regex_internal_b_int=\count283
+\l__regex_internal_c_int=\count284
+\l__regex_balance_int=\count285
+\l__regex_group_level_int=\count286
+\l__regex_mode_int=\count287
+\c__regex_cs_in_class_mode_int=\count288
+\c__regex_cs_mode_int=\count289
+\l__regex_catcodes_int=\count290
+\l__regex_default_catcodes_int=\count291
+\c__regex_catcode_D_int=\count292
+\c__regex_catcode_S_int=\count293
+\c__regex_catcode_L_int=\count294
+\c__regex_catcode_O_int=\count295
+\c__regex_catcode_A_int=\count296
+\c__regex_all_catcodes_int=\count297
+\l__regex_show_lines_int=\count298
+\l__regex_min_state_int=\count299
+\l__regex_max_state_int=\count300
+\l__regex_left_state_int=\count301
+\l__regex_right_state_int=\count302
+\l__regex_capturing_group_int=\count303
+\l__regex_min_pos_int=\count304
+\l__regex_max_pos_int=\count305
+\l__regex_curr_pos_int=\count306
+\l__regex_start_pos_int=\count307
+\l__regex_success_pos_int=\count308
+\l__regex_curr_char_int=\count309
+\l__regex_curr_catcode_int=\count310
+\l__regex_last_char_int=\count311
+\l__regex_case_changed_char_int=\count312
+\l__regex_curr_state_int=\count313
+\l__regex_step_int=\count314
+\l__regex_min_active_int=\count315
+\l__regex_max_active_int=\count316
+\l__regex_replacement_csnames_int=\count317
+\l__regex_match_count_int=\count318
+\l__regex_min_submatch_int=\count319
+\l__regex_submatch_int=\count320
+\l__regex_zeroth_submatch_int=\count321
+\g__regex_trace_regex_int=\count322
+\c_empty_box=\box85
+\l_tmpa_box=\box86
+\l_tmpb_box=\box87
+\g_tmpa_box=\box88
+\g_tmpb_box=\box89
+\l__box_top_dim=\dimen270
+\l__box_bottom_dim=\dimen271
+\l__box_left_dim=\dimen272
+\l__box_right_dim=\dimen273
+\l__box_top_new_dim=\dimen274
+\l__box_bottom_new_dim=\dimen275
+\l__box_left_new_dim=\dimen276
+\l__box_right_new_dim=\dimen277
+\l__box_internal_box=\box90
+\l__coffin_internal_box=\box91
+\l__coffin_internal_dim=\dimen278
+\l__coffin_offset_x_dim=\dimen279
+\l__coffin_offset_y_dim=\dimen280
+\l__coffin_x_dim=\dimen281
+\l__coffin_y_dim=\dimen282
+\l__coffin_x_prime_dim=\dimen283
+\l__coffin_y_prime_dim=\dimen284
+\c_empty_coffin=\box92
+\l__coffin_aligned_coffin=\box93
+\l__coffin_aligned_internal_coffin=\box94
+\l_tmpa_coffin=\box95
+\l_tmpb_coffin=\box96
+\g_tmpa_coffin=\box97
+\g_tmpb_coffin=\box98
+\l__coffin_bounding_shift_dim=\dimen285
+\l__coffin_left_corner_dim=\dimen286
+\l__coffin_right_corner_dim=\dimen287
+\l__coffin_bottom_corner_dim=\dimen288
+\l__coffin_top_corner_dim=\dimen289
+\l__coffin_scaled_total_height_dim=\dimen290
+\l__coffin_scaled_width_dim=\dimen291
+\c__coffin_empty_coffin=\box99
+\l__coffin_display_coffin=\box100
+\l__coffin_display_coord_coffin=\box101
+\l__coffin_display_pole_coffin=\box102
+\l__coffin_display_offset_dim=\dimen292
+\l__coffin_display_x_dim=\dimen293
+\l__coffin_display_y_dim=\dimen294
+\g__file_internal_ior=\read2
+\l__seq_internal_a_int=\count323
+\l__seq_internal_b_int=\count324
+\c__deprecation_minus_one=\count325
+)
+(/usr/share/texmf/tex/latex/l3kernel/l3pdfmode.def
+File: l3pdfmode.def 2019-04-06 v L3 Experimental driver: PDF mode
+\l__driver_color_stack_int=\count326
+))
+Package: xparse 2019-03-05 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count327
+\g__xparse_grabber_int=\count328
+\l__xparse_m_args_int=\count329
+\l__xparse_v_nesting_int=\count330
+)
+Package: tikzsymbols 2019/02/08 v4.10c Some symbols created using tikz and LaTe
+X3.
+
+(/usr/share/texmf/tex/latex/tools/xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+(/usr/share/texmf/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+Package: l3keys2e 2019-03-05 LaTeX2e option processing using LaTeX3 keys
+)
+(/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryarrow
+s.code.tex
+File: tikzlibraryarrows.code.tex 2019/02/02 v3.1.1 (3.1.1)
+
+(/usr/share/texmf/tex/generic/pgf/libraries/pgflibraryarrows.code.tex
+File: pgflibraryarrows.code.tex 2019/02/02 v3.1.1 (3.1.1)
+\arrowsize=\dimen295
+))
+(/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecor
+ations.pathmorphing.code.tex
+(/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecor
+ations.code.tex
+(/usr/share/texmf/tex/generic/pgf/modules/pgfmoduledecorations.code.tex
+\pgfdecoratedcompleteddistance=\dimen296
+\pgfdecoratedremainingdistance=\dimen297
+\pgfdecoratedinputsegmentcompleteddistance=\dimen298
+\pgfdecoratedinputsegmentremainingdistance=\dimen299
+\pgf@decorate@distancetomove=\dimen300
+\pgf@decorate@repeatstate=\count331
+\pgfdecorationsegmentamplitude=\dimen301
+\pgfdecorationsegmentlength=\dimen302
+)
+\tikz@lib@dec@box=\box103
+)
+(/usr/share/texmf/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.p
+athmorphing.code.tex))
+(/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytrees
+.code.tex
+File: tikzlibrarytrees.code.tex 2019/02/02 v3.1.1 (3.1.1)
+)
+\l__tikzsymbols_Moai_thickness_dim=\dimen303
+) (/usr/share/texmf/tex/latex/wasysym/wasysym.sty
+Package: wasysym 2003/10/30 v2.0 Wasy-2 symbol support package
+\symwasy=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `wasy' in version `bold'
+(Font)                  U/wasy/m/n --> U/wasy/b/n on input line 90.
+)
+(/usr/share/texmf/tex/latex/psnfss/mathpazo.sty
+Package: mathpazo 2005/04/12 PSNFSS-v9.2a Palatino w/ Pazo Math (D.Puga, WaS) 
+\symupright=\mathgroup7
+)
+(/usr/share/texmf/tex/latex/quotmark/quotmark.sty
+Package: quotmark 2007/12/10 v1.0
+\qt@tmpcount=\count332
+)
+(/usr/share/texmf/tex/latex/listings/listings.sty
+\lst@mode=\count333
+\lst@gtempboxa=\box104
+\lst@token=\toks45
+\lst@length=\count334
+\lst@currlwidth=\dimen304
+\lst@column=\count335
+\lst@pos=\count336
+\lst@lostspace=\dimen305
+\lst@width=\dimen306
+\lst@newlines=\count337
+\lst@lineno=\count338
+\lst@maxwidth=\dimen307
+
+(/usr/share/texmf/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2019/02/27 1.8b (Carsten Heinz)
+\c@lstnumber=\count339
+\lst@skipnumbers=\count340
+\lst@framebox=\box105
+)
+(/usr/share/texmf/tex/latex/listings/listings.cfg
+File: listings.cfg 2019/02/27 1.8b listings configuration
+))
+Package: listings 2019/02/27 1.8b (Carsten Heinz)
+
+(/usr/share/texmf/tex/latex/datetime/datetime.sty
+Package: datetime 2015/03/20 v2.60 Date Time Package
+
+(/usr/share/texmf/tex/latex/fmtcount/fmtcount.sty
+Package: fmtcount 2017/12/24 v3.05
+
+(/usr/share/texmf/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/share/texmf/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+(/usr/share/texmf/tex/generic/xkeyval/xkeyval.tex
+(/usr/share/texmf/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks46
+\XKV@tempa@toks=\toks47
+)
+\XKV@depth=\count341
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(/usr/share/texmf/tex/latex/fmtcount/fcprefix.sty
+Package: fcprefix 2012/09/28
+
+(/usr/share/texmf/tex/latex/fmtcount/fcnumparser.sty
+Package: fcnumparser 2017/06/15
+\fc@digit@counter=\count342
+))
+\c@padzeroesN=\count343
+\fc@tmpcatcode=\count344
+\@DT@modctr=\count345
+\@ordinalctr=\count346
+\@orgargctr=\count347
+\@strctr=\count348
+\@tmpstrctr=\count349
+\@DT@loopN=\count350
+\@DT@X=\count351
+)
+(/usr/share/texmf/tex/latex/datetime/datetime-defaults.sty
+Package: datetime-defaults 2013/09/10
+)
+\@day=\count352
+\@month=\count353
+\@year=\count354
+\c@HOUR=\count355
+\c@HOURXII=\count356
+\c@MINUTE=\count357
+\c@TOHOUR=\count358
+\c@TOMINUTE=\count359
+\c@SECOND=\count360
+\currenthour=\count361
+\currentminute=\count362
+\currentsecond=\count363
+Package datetime Info: No datetime.cfg file found, using default settings on in
+put line 308.
+\@dtctr=\count364
+\dayofyear=\count365
+\dayofweek=\count366
+LaTeX Info: Redefining \today on input line 736.
+\dt@a=\toks48
+\dt@b=\toks49
+)
+(/usr/share/texmf/tex/latex/showexpl/showexpl.sty
+Package: showexpl 2016/12/11 v0.3o Typesetting example code (RN)
+
+(/usr/share/texmf/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count367
+\calc@Bcount=\count368
+\calc@Adimen=\dimen308
+\calc@Bdimen=\dimen309
+\calc@Askip=\skip65
+\calc@Bskip=\skip66
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count369
+\calc@Cskip=\skip67
+)
+(/usr/share/texmf/tex/latex/varwidth/varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box106
+\sift@deathcycles=\count370
+\@vwid@loff=\dimen310
+\@vwid@roff=\dimen311
+)
+(/usr/share/texmf/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2019/02/27 1.8b (Carsten Heinz)
+\lst@WFtoken=\toks50
+\lst@WF=\write5
+)
+\SX@ResBox=\box107
+\ResultBoxSep=\dimen312
+\ResultBoxRule=\dimen313
+\c@ltxexample=\count371
+)
+(/usr/share/texmf/tex/latex/base/fontenc.sty
+Package: fontenc 2018/08/11 v2.0j Standard LaTeX package
+
+(/usr/share/texmf/tex/latex/base/t1enc.def
+File: t1enc.def 2018/08/11 v2.0j Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+))
+(/usr/share/texmf/tex/latex/framed/framed.sty
+Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
+\OuterFrameSep=\skip68
+\fb@frw=\dimen314
+\fb@frh=\dimen315
+\FrameRule=\dimen316
+\FrameSep=\dimen317
+)
+(/usr/share/texmf/tex/latex/base/inputenc.sty
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks51
+\inpenc@posthook=\toks52
+)
+(/usr/share/texmf/tex/latex/textpos/textpos.sty
+Package: textpos 2016/06/07 v1.8
+
+Package: textpos 2016/06/07 1.8, absolute positioning of text on the page
+\TP@textbox=\box108
+\TP@holdbox=\box109
+\TPHorizModule=\dimen318
+\TPVertModule=\dimen319
+\TP@margin=\dimen320
+\TP@absmargin=\dimen321
+Grid set 16 x 16 = 22.7622pt x 17.07166pt
+\TPboxrulesize=\dimen322
+\TP@ox=\dimen323
+\TP@oy=\dimen324
+\TP@tbargs=\toks53
+\TP@prevdepth=\dimen325
+TextBlockOrigin set to 0pt x 0pt
+) (/usr/share/texmf/tex/latex/beamer/beamerthemeIlmenau.sty
+(/usr/share/texmf/tex/latex/beamer/beamerouterthememiniframes.sty)
+(/usr/share/texmf/tex/latex/beamer/beamercolorthemewhale.sty)
+(/usr/share/texmf/tex/latex/beamer/beamercolorthemeorchid.sty)
+(/usr/share/texmf/tex/latex/beamer/beamerinnerthemerounded.sty))
+(/usr/share/texmf/tex/latex/beamer/beamerfontthemeserif.sty)
+(/usr/share/texmf/tex/latex/beamer/beamerfontthemeprofessionalfonts.sty)
+
+Package pgf Warning: File "EEL-logo" not found when defining image "eel". Tried
+ all extensions in ".pdf:.jpg:.jpeg:.png:" on input line 41.
+
+
+Package pgf Warning: Missing width for image "eel" ("EEL-logo") in draft mode. 
+Using 1cm instead on input line 41.
+
+(./Latex-Tutorial-Eleno-v1_2.aux)
+\openout1 = `Latex-Tutorial-Eleno-v1_2.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Try loading font information for T1+ppl on input line 44.
+ (/usr/share/texmf/tex/latex/psnfss/t1ppl.fd
+File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
+)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: custom
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: includehead includefoot 
+* h-part:(L,W,R)=(28.45274pt, 545.34671pt, 28.45274pt)
+* v-part:(T,H,B)=(0.0pt, 401.50146pt, 0.0pt)
+* \paperwidth=602.2522pt
+* \paperheight=401.50146pt
+* \textwidth=545.34671pt
+* \textheight=373.04874pt
+* \oddsidemargin=-43.81725pt
+* \evensidemargin=-43.81725pt
+* \topmargin=-72.26999pt
+* \headheight=14.22636pt
+* \headsep=0.0pt
+* \topskip=11.0pt
+* \footskip=14.22636pt
+* \marginparwidth=4.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(/usr/share/texmf/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count372
+\scratchdimen=\dimen326
+\scratchbox=\box110
+\nofMPsegments=\count373
+\nofMParguments=\count374
+\everyMPshowfont=\toks54
+\MPscratchCnt=\count375
+\MPscratchDim=\dimen327
+\MPnumerator=\count376
+\makeMPintoPDFobject=\count377
+\everyMPtoPDFconversion=\toks55
+) (/usr/share/texmf/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/share/texmf/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/usr/share/texmf/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+ABD: EveryShipout initializing macros
+\AtBeginShipoutBox=\box111
+Package hyperref Info: Link coloring OFF on input line 44.
+
+(/usr/share/texmf/tex/latex/hyperref/nameref.sty
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+
+(/usr/share/texmf/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count378
+)
+LaTeX Info: Redefining \ref on input line 44.
+LaTeX Info: Redefining \pageref on input line 44.
+LaTeX Info: Redefining \nameref on input line 44.
+
+(./Latex-Tutorial-Eleno-v1_2.out) (./Latex-Tutorial-Eleno-v1_2.out)
+\@outlinefile=\write6
+\openout6 = `Latex-Tutorial-Eleno-v1_2.out'.
+
+
+(/usr/share/texmf/tex/latex/translator/translator-basic-dictionary-English.dict
+Dictionary: translator-basic-dictionary, Language: English 
+)
+(/usr/share/texmf/tex/latex/translator/translator-bibliography-dictionary-Engli
+sh.dict
+Dictionary: translator-bibliography-dictionary, Language: English 
+)
+(/usr/share/texmf/tex/latex/translator/translator-environment-dictionary-Englis
+h.dict
+Dictionary: translator-environment-dictionary, Language: English 
+)
+(/usr/share/texmf/tex/latex/translator/translator-months-dictionary-English.dic
+t
+Dictionary: translator-months-dictionary, Language: English 
+)
+(/usr/share/texmf/tex/latex/translator/translator-numbers-dictionary-English.di
+ct
+Dictionary: translator-numbers-dictionary, Language: English 
+)
+(/usr/share/texmf/tex/latex/translator/translator-theorem-dictionary-English.di
+ct
+Dictionary: translator-theorem-dictionary, Language: English 
+)
+\c@lstlisting=\count379
+ (/usr/share/texmf/tex/latex/fmtcount/fc-english.def
+File: fc-english.def 2016/01/12
+)
+(./Latex-Tutorial-Eleno-v1_2.nav)
+(/usr/share/texmf/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2019/02/27 1.8b listings language file
+)
+(/usr/share/texmf/tex/latex/listings/lstlang2.sty
+File: lstlang2.sty 2019/02/27 1.8b listings language file
+)
+(/usr/share/texmf/tex/latex/listings/lstlang3.sty
+File: lstlang3.sty 2019/02/27 1.8b listings language file
+)
+(/usr/share/texmf/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2019/02/27 1.8b listings language file
+)
+(/usr/share/texmf/tex/latex/listings/lstlang2.sty
+File: lstlang2.sty 2019/02/27 1.8b listings language file
+)
+(/usr/share/texmf/tex/latex/listings/lstlang3.sty
+File: lstlang3.sty 2019/02/27 1.8b listings language file
+)
+(/usr/share/texmf/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2019/02/27 1.8b listings language file
+)
+(/usr/share/texmf/tex/latex/listings/lstlang2.sty
+File: lstlang2.sty 2019/02/27 1.8b listings language file
+)
+(/usr/share/texmf/tex/latex/listings/lstlang3.sty
+File: lstlang3.sty 2019/02/27 1.8b listings language file
+)
+(/usr/share/texmf/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2019/02/27 1.8b (Carsten Heinz)
+)
+
+Package hyperref Warning: Option `pdfauthor' has already been used,
+(hyperref)                setting the option has no effect on input line 58.
+
+LaTeX Font Info:    Try loading font information for OT1+ppl on input line 63.
+(/usr/share/texmf/tex/latex/psnfss/ot1ppl.fd
+File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
+)
+LaTeX Font Info:    Try loading font information for OML+zplm on input line 63.
+
+
+(/usr/share/texmf/tex/latex/psnfss/omlzplm.fd
+File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
+)
+LaTeX Font Info:    Try loading font information for OMS+zplm on input line 63.
+
+
+(/usr/share/texmf/tex/latex/psnfss/omszplm.fd
+File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
+)
+LaTeX Font Info:    Try loading font information for OMX+zplm on input line 63.
+
+
+(/usr/share/texmf/tex/latex/psnfss/omxzplm.fd
+File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
+)
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 15.0049pt on input line 63.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 10.42007pt on input line 63.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 8.33606pt on input line 63.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 15.0049pt on input line 63.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 10.42007pt on input line 63.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 8.33606pt on input line 63.
+LaTeX Font Info:    Try loading font information for U+wasy on input line 63.
+
+(/usr/share/texmf/tex/latex/wasysym/uwasy.fd
+File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
+)
+LaTeX Font Info:    Try loading font information for OT1+zplm on input line 63.
+
+
+(/usr/share/texmf/tex/latex/psnfss/ot1zplm.fd
+File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
+)
+<images/EEL-logo.png, id=129, 150.5625pt x 174.6525pt>
+File: images/EEL-logo.png Graphic file (type png)
+<use images/EEL-logo.png>
+Package pdftex.def Info: images/EEL-logo.png  used on input line 63.
+(pdftex.def)             Requested size: 71.13188pt x 82.51575pt.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 11.40997pt on input line 63.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 6.25204pt on input line 63.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 11.40997pt on input line 63.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 6.25204pt on input line 63.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 5.21004pt on input line 63.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 5.21004pt on input line 63.
+ [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+
+ <./images/EEL-logo.png>] (./Latex-Tutorial-Eleno-v1_2.toc) [2
+
+]
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 25.92514pt on input line 120.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 21.61124pt on input line 120.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 25.92514pt on input line 120.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 21.61124pt on input line 120.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 7.91925pt on input line 120.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 7.91925pt on input line 120.
+\g__tikzsymbols_savebox_F_0 g 0 G_10.95_BasicTree_10_brown!70!black_green!90!bl
+ack_green!80!black_leaf_box=\box112
+\g__tikzsymbols_savebox_F_0 g 0 G_10.95_BasicTree_10_brown!50!black_green!80!bl
+ack_red!80!green_leaf_box=\box113
+\g__tikzsymbols_savebox_F_0 g 0 G_10.95_BasicTree_10_red!30!black_red!75!black_
+orange_leaf_box=\box114
+\g__tikzsymbols_savebox_F_0 g 0 G_10.95_BasicTree_10_black!80!white_black!50_bl
+ack!25__box=\box115
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 120.
+
+ (/usr/share/texmf/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+) [3
+
+]
+<images/texlive.png, id=317, 299.1175pt x 299.1175pt>
+File: images/texlive.png Graphic file (type png)
+<use images/texlive.png>
+Package pdftex.def Info: images/texlive.png  used on input line 157.
+(pdftex.def)             Requested size: 56.90593pt x 56.9055pt.
+<images/miktex.png, id=319, 385.44pt x 385.44pt>
+File: images/miktex.png Graphic file (type png)
+<use images/miktex.png>
+Package pdftex.def Info: images/miktex.png  used on input line 157.
+(pdftex.def)             Requested size: 56.90189pt x 56.9055pt.
+ [4
+
+ <./images/texlive.png> <./images/miktex.png>]
+<images/texstudio.png, id=366, 210.03468pt x 128.73094pt>
+File: images/texstudio.png Graphic file (type png)
+<use images/texstudio.png>
+Package pdftex.def Info: images/texstudio.png  used on input line 200.
+(pdftex.def)             Requested size: 92.84499pt x 56.9055pt.
+<images/texmaker.jpeg, id=368, 225.84375pt x 225.84375pt>
+File: images/texmaker.jpeg Graphic file (type jpg)
+<use images/texmaker.jpeg>
+Package pdftex.def Info: images/texmaker.jpeg  used on input line 200.
+(pdftex.def)             Requested size: 56.90533pt x 56.9055pt.
+<images/texworks.png, id=370, 220.825pt x 250.9375pt>
+File: images/texworks.png Graphic file (type png)
+<use images/texworks.png>
+Package pdftex.def Info: images/texworks.png  used on input line 200.
+(pdftex.def)             Requested size: 50.07434pt x 56.9055pt.
+<images/lyx.jpeg, id=372, 276.03125pt x 183.68625pt>
+File: images/lyx.jpeg Graphic file (type jpg)
+<use images/lyx.jpeg>
+Package pdftex.def Info: images/lyx.jpeg  used on input line 200.
+(pdftex.def)             Requested size: 85.51404pt x 56.9055pt.
+<images/authorea.png, id=374, 80.7015pt x 33.726pt>
+File: images/authorea.png Graphic file (type png)
+<use images/authorea.png>
+Package pdftex.def Info: images/authorea.png  used on input line 200.
+(pdftex.def)             Requested size: 136.17976pt x 56.9055pt.
+<images/overleaf.png, id=376, 651.1527pt x 317.988pt>
+File: images/overleaf.png Graphic file (type png)
+<use images/overleaf.png>
+Package pdftex.def Info: images/overleaf.png  used on input line 200.
+(pdftex.def)             Requested size: 116.5268pt x 56.9055pt.
+
+Overfull \vbox (1.45311pt too high) detected at line 200
+ []
+
+[5
+
+ <./images/texstudio.png> <./images/texmaker.jpeg> <./images/texworks.png> <./i
+mages/lyx.jpeg> <./images/authorea.png> <./images/overleaf.png>] [6
+
+] [7
+
+]
+[8
+
+] [9
+
+]
+\openout5 = `Latex-Tutorial-Eleno-v1_2.tmp'.
+
+ (./Latex-Tutorial-Eleno-v1_2.tmp
+
+Package hyperref Warning: Option `pdfauthor' has already been used,
+(hyperref)                setting the option has no effect on input line 2.
+
+)
+--------------------------------
+pos=l
+width=272.67336pt
+hsep=17.07164pt
+vsep=12.0pt
+overhang=0pt
+rframe=single
+codefile=Latex-Tutorial-Eleno-v1_2.tmp
+\lst@firstline=1\relax 
+\lst@lastline=9999999\relax 
+\lst@linerange=
+\if@SX@wide=FALSE
+\if@SX@rangeaccept=FALSE
+\if@SX@varwidth=FALSE
+graphicfile=, graphicparameter=[width=\linewidth ]
+--------------------------------
+(./Latex-Tutorial-Eleno-v1_2.tmp) [10
+
+] [11
+
+] [12
+
+]
+\openout5 = `Latex-Tutorial-Eleno-v1_2.tmp'.
+
+
+(./Latex-Tutorial-Eleno-v1_2.tmp)
+--------------------------------
+pos=l
+width=272.67336pt
+hsep=17.07164pt
+vsep=12.0pt
+overhang=0pt
+rframe=single
+codefile=Latex-Tutorial-Eleno-v1_2.tmp
+\lst@firstline=1\relax 
+\lst@lastline=9999999\relax 
+\lst@linerange=
+\if@SX@wide=FALSE
+\if@SX@rangeaccept=FALSE
+\if@SX@varwidth=FALSE
+graphicfile=, graphicparameter=[width=\linewidth ]
+--------------------------------
+(./Latex-Tutorial-Eleno-v1_2.tmp) [13
+
+]
+\openout5 = `Latex-Tutorial-Eleno-v1_2.tmp'.
+
+ (./Latex-Tutorial-Eleno-v1_2.tmp
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 9.
+)
+--------------------------------
+pos=l
+width=272.67336pt
+hsep=17.07164pt
+vsep=12.0pt
+overhang=0pt
+rframe=single
+codefile=Latex-Tutorial-Eleno-v1_2.tmp
+\lst@firstline=1\relax 
+\lst@lastline=9999999\relax 
+\lst@linerange=
+\if@SX@wide=FALSE
+\if@SX@rangeaccept=FALSE
+\if@SX@varwidth=FALSE
+graphicfile=, graphicparameter=[width=\linewidth ]
+--------------------------------
+(./Latex-Tutorial-Eleno-v1_2.tmp) [14
+
+]
+\openout5 = `Latex-Tutorial-Eleno-v1_2.tmp'.
+
+ (./Latex-Tutorial-Eleno-v1_2.tmp)
+--------------------------------
+pos=l
+width=272.67336pt
+hsep=17.07164pt
+vsep=12.0pt
+overhang=0pt
+rframe=single
+codefile=Latex-Tutorial-Eleno-v1_2.tmp
+\lst@firstline=1\relax 
+\lst@lastline=9999999\relax 
+\lst@linerange=
+\if@SX@wide=FALSE
+\if@SX@rangeaccept=FALSE
+\if@SX@varwidth=FALSE
+graphicfile=, graphicparameter=[width=\linewidth ]
+--------------------------------
+(./Latex-Tutorial-Eleno-v1_2.tmp)
+\openout5 = `Latex-Tutorial-Eleno-v1_2.tmp'.
+
+ (./Latex-Tutorial-Eleno-v1_2.tmp)
+--------------------------------
+pos=l
+width=272.67336pt
+hsep=17.07164pt
+vsep=12.0pt
+overhang=0pt
+rframe=single
+codefile=Latex-Tutorial-Eleno-v1_2.tmp
+\lst@firstline=1\relax 
+\lst@lastline=9999999\relax 
+\lst@linerange=
+\if@SX@wide=FALSE
+\if@SX@rangeaccept=FALSE
+\if@SX@varwidth=FALSE
+graphicfile=, graphicparameter=[width=\linewidth ]
+--------------------------------
+(./Latex-Tutorial-Eleno-v1_2.tmp) [15
+
+]
+\openout5 = `Latex-Tutorial-Eleno-v1_2.tmp'.
+
+ (./Latex-Tutorial-Eleno-v1_2.tmp)
+--------------------------------
+pos=l
+width=272.67336pt
+hsep=17.07164pt
+vsep=12.0pt
+overhang=0pt
+rframe=single
+codefile=Latex-Tutorial-Eleno-v1_2.tmp
+\lst@firstline=1\relax 
+\lst@lastline=9999999\relax 
+\lst@linerange=
+\if@SX@wide=FALSE
+\if@SX@rangeaccept=FALSE
+\if@SX@varwidth=FALSE
+graphicfile=, graphicparameter=[width=\linewidth ]
+--------------------------------
+(./Latex-Tutorial-Eleno-v1_2.tmp)
+\openout5 = `Latex-Tutorial-Eleno-v1_2.tmp'.
+
+ (./Latex-Tutorial-Eleno-v1_2.tmp)
+--------------------------------
+pos=l
+width=272.67336pt
+hsep=17.07164pt
+vsep=12.0pt
+overhang=0pt
+rframe=single
+codefile=Latex-Tutorial-Eleno-v1_2.tmp
+\lst@firstline=1\relax 
+\lst@lastline=9999999\relax 
+\lst@linerange=
+\if@SX@wide=FALSE
+\if@SX@rangeaccept=FALSE
+\if@SX@varwidth=FALSE
+graphicfile=, graphicparameter=[width=\linewidth ]
+--------------------------------
+(./Latex-Tutorial-Eleno-v1_2.tmp) [16
+
+]
+<images/fontcatalogue.png, id=894, 332.74312pt x 449.42906pt>
+File: images/fontcatalogue.png Graphic file (type png)
+<use images/fontcatalogue.png>
+Package pdftex.def Info: images/fontcatalogue.png  used on input line 633.
+(pdftex.def)             Requested size: 232.98459pt x 314.67383pt.
+ [17
+
+ <./images/fontcatalogue.png (PNG copy)>]
+\openout5 = `Latex-Tutorial-Eleno-v1_2.tmp'.
+
+ (./Latex-Tutorial-Eleno-v1_2.tmp
+<images/comic1.png, id=936, 526.96875pt x 228.10219pt>
+File: images/comic1.png Graphic file (type png)
+<use images/comic1.png>
+Package pdftex.def Info: images/comic1.png  used on input line 3.
+(pdftex.def)             Requested size: 239.2844pt x 103.5778pt.
+)
+--------------------------------
+pos=l
+width=272.67336pt
+hsep=17.07164pt
+vsep=12.0pt
+overhang=0pt
+rframe=single
+codefile=Latex-Tutorial-Eleno-v1_2.tmp
+\lst@firstline=1\relax 
+\lst@lastline=9999999\relax 
+\lst@linerange=
+\if@SX@wide=FALSE
+\if@SX@rangeaccept=FALSE
+\if@SX@varwidth=FALSE
+graphicfile=, graphicparameter=[width=\linewidth ]
+--------------------------------
+(./Latex-Tutorial-Eleno-v1_2.tmp) [18
+
+ <./images/comic1.png (PNG copy)>]
+\openout5 = `Latex-Tutorial-Eleno-v1_2.tmp'.
+
+
+(./Latex-Tutorial-Eleno-v1_2.tmp)
+--------------------------------
+pos=l
+width=272.67336pt
+hsep=17.07164pt
+vsep=12.0pt
+overhang=0pt
+rframe=single
+codefile=Latex-Tutorial-Eleno-v1_2.tmp
+\lst@firstline=1\relax 
+\lst@lastline=9999999\relax 
+\lst@linerange=
+\if@SX@wide=FALSE
+\if@SX@rangeaccept=FALSE
+\if@SX@varwidth=FALSE
+graphicfile=, graphicparameter=[width=\linewidth ]
+--------------------------------
+(./Latex-Tutorial-Eleno-v1_2.tmp) [19
+
+]
+\openout5 = `Latex-Tutorial-Eleno-v1_2.tmp'.
+
+ (./Latex-Tutorial-Eleno-v1_2.tmp)
+--------------------------------
+pos=l
+width=272.67336pt
+hsep=17.07164pt
+vsep=12.0pt
+overhang=0pt
+rframe=single
+codefile=Latex-Tutorial-Eleno-v1_2.tmp
+\lst@firstline=1\relax 
+\lst@lastline=9999999\relax 
+\lst@linerange=
+\if@SX@wide=FALSE
+\if@SX@rangeaccept=FALSE
+\if@SX@varwidth=FALSE
+graphicfile=, graphicparameter=[width=\linewidth ]
+--------------------------------
+(./Latex-Tutorial-Eleno-v1_2.tmp)
+\openout5 = `Latex-Tutorial-Eleno-v1_2.tmp'.
+
+ (./Latex-Tutorial-Eleno-v1_2.tmp)
+--------------------------------
+pos=l
+width=272.67336pt
+hsep=17.07164pt
+vsep=12.0pt
+overhang=0pt
+rframe=single
+codefile=Latex-Tutorial-Eleno-v1_2.tmp
+\lst@firstline=1\relax 
+\lst@lastline=9999999\relax 
+\lst@linerange=
+\if@SX@wide=FALSE
+\if@SX@rangeaccept=FALSE
+\if@SX@varwidth=FALSE
+graphicfile=, graphicparameter=[width=\linewidth ]
+--------------------------------
+(./Latex-Tutorial-Eleno-v1_2.tmp) [20
+
+]
+\openout5 = `Latex-Tutorial-Eleno-v1_2.tmp'.
+
+ (./Latex-Tutorial-Eleno-v1_2.tmp)
+--------------------------------
+pos=l
+width=272.67336pt
+hsep=17.07164pt
+vsep=12.0pt
+overhang=0pt
+rframe=single
+codefile=Latex-Tutorial-Eleno-v1_2.tmp
+\lst@firstline=1\relax 
+\lst@lastline=9999999\relax 
+\lst@linerange=
+\if@SX@wide=FALSE
+\if@SX@rangeaccept=FALSE
+\if@SX@varwidth=FALSE
+graphicfile=, graphicparameter=[width=\linewidth ]
+--------------------------------
+(./Latex-Tutorial-Eleno-v1_2.tmp) [21
+
+]
+\openout5 = `Latex-Tutorial-Eleno-v1_2.tmp'.
+
+ (./Latex-Tutorial-Eleno-v1_2.tmp
+<images/comic-strip.jpg, id=1115, 1003.75pt x 434.62375pt>
+File: images/comic-strip.jpg Graphic file (type jpg)
+<use images/comic-strip.jpg>
+Package pdftex.def Info: images/comic-strip.jpg  used on input line 3.
+(pdftex.def)             Requested size: 159.52563pt x 69.07036pt.
+)
+--------------------------------
+pos=l
+width=272.67336pt
+hsep=17.07164pt
+vsep=12.0pt
+overhang=0pt
+rframe=single
+codefile=Latex-Tutorial-Eleno-v1_2.tmp
+\lst@firstline=1\relax 
+\lst@lastline=9999999\relax 
+\lst@linerange=
+\if@SX@wide=FALSE
+\if@SX@rangeaccept=FALSE
+\if@SX@varwidth=FALSE
+graphicfile=, graphicparameter=[width=\linewidth ]
+--------------------------------
+(./Latex-Tutorial-Eleno-v1_2.tmp)
+\openout5 = `Latex-Tutorial-Eleno-v1_2.tmp'.
+
+ (./Latex-Tutorial-Eleno-v1_2.tmp)
+--------------------------------
+pos=l
+width=272.67336pt
+hsep=17.07164pt
+vsep=12.0pt
+overhang=0pt
+rframe=single
+codefile=Latex-Tutorial-Eleno-v1_2.tmp
+\lst@firstline=1\relax 
+\lst@lastline=9999999\relax 
+\lst@linerange=
+\if@SX@wide=FALSE
+\if@SX@rangeaccept=FALSE
+\if@SX@varwidth=FALSE
+graphicfile=, graphicparameter=[width=\linewidth ]
+--------------------------------
+(./Latex-Tutorial-Eleno-v1_2.tmp)
+\openout5 = `Latex-Tutorial-Eleno-v1_2.tmp'.
+
+ (./Latex-Tutorial-Eleno-v1_2.tmp)
+--------------------------------
+pos=l
+width=272.67336pt
+hsep=17.07164pt
+vsep=12.0pt
+overhang=0pt
+rframe=single
+codefile=Latex-Tutorial-Eleno-v1_2.tmp
+\lst@firstline=1\relax 
+\lst@lastline=9999999\relax 
+\lst@linerange=
+\if@SX@wide=FALSE
+\if@SX@rangeaccept=FALSE
+\if@SX@varwidth=FALSE
+graphicfile=, graphicparameter=[width=\linewidth ]
+--------------------------------
+(./Latex-Tutorial-Eleno-v1_2.tmp) [22
+
+ <./images/comic-strip.jpg>]
+<images/jabref.jpeg, id=1168, 479.7925pt x 105.39375pt>
+File: images/jabref.jpeg Graphic file (type jpg)
+<use images/jabref.jpeg>
+Package pdftex.def Info: images/jabref.jpeg  used on input line 857.
+(pdftex.def)             Requested size: 194.29292pt x 42.67912pt.
+<images/mendeley.png, id=1170, 1204.5pt x 1204.5pt>
+File: images/mendeley.png Graphic file (type png)
+<use images/mendeley.png>
+Package pdftex.def Info: images/mendeley.png  used on input line 857.
+(pdftex.def)             Requested size: 56.90189pt x 56.9055pt.
+ [23
+
+ <./images/jabref.jpeg> <./images/mendeley.png>] [24
+
+]
+<images/referencia.png, id=1256, 749.80125pt x 228.855pt>
+File: images/referencia.png Graphic file (type png)
+<use images/referencia.png>
+Package pdftex.def Info: images/referencia.png  used on input line 926.
+(pdftex.def)             Requested size: 229.0952pt x 69.92693pt.
+ [25
+
+ <./images/referencia.png (PNG copy)>]
+<images/abntex.png, id=1299, 227.85126pt x 72.27pt>
+File: images/abntex.png Graphic file (type png)
+<use images/abntex.png>
+Package pdftex.def Info: images/abntex.png  used on input line 964.
+(pdftex.def)             Requested size: 179.40947pt x 56.9055pt.
+ [26
+
+ <./images/abntex.png>]
+<images/stackoverflow.png, id=1343, 456.70625pt x 111.41624pt>
+File: images/stackoverflow.png Graphic file (type png)
+<use images/stackoverflow.png>
+Package pdftex.def Info: images/stackoverflow.png  used on input line 1028.
+(pdftex.def)             Requested size: 233.25856pt x 56.9055pt.
+<images/ctan.jpeg, id=1344, 238.8925pt x 212.795pt>
+File: images/ctan.jpeg Graphic file (type jpg)
+<use images/ctan.jpeg>
+Package pdftex.def Info: images/ctan.jpeg  used on input line 1028.
+(pdftex.def)             Requested size: 63.88214pt x 56.9055pt.
+<images/latexproject.png, id=1345, 216.81pt x 216.81pt>
+File: images/latexproject.png Graphic file (type png)
+<use images/latexproject.png>
+Package pdftex.def Info: images/latexproject.png  used on input line 1028.
+(pdftex.def)             Requested size: 56.9052pt x 56.9055pt.
+<images/usp.png, id=1349, 305.4612pt x 120.6909pt>
+File: images/usp.png Graphic file (type png)
+<use images/usp.png>
+Package pdftex.def Info: images/usp.png  used on input line 1028.
+(pdftex.def)             Requested size: 72.01176pt x 28.45274pt.
+File: images/EEL-logo.png Graphic file (type png)
+<use images/EEL-logo.png>
+Package pdftex.def Info: images/EEL-logo.png  used on input line 1028.
+(pdftex.def)             Requested size: 29.43422pt x 34.1433pt.
+<images/ppgem.jpg, id=1350, 513.92pt x 513.92pt>
+File: images/ppgem.jpg Graphic file (type jpg)
+<use images/ppgem.jpg>
+Package pdftex.def Info: images/ppgem.jpg  used on input line 1028.
+(pdftex.def)             Requested size: 34.1431pt x 34.1433pt.
+
+Overfull \vbox (11.41316pt too high) detected at line 1028
+ []
+
+[27
+
+ <./images/stackoverflow.png> <./images/ctan.jpeg> <./images/latexproject.png> 
+<./images/usp.png> <./images/ppgem.jpg>]
+\tf@nav=\write7
+\openout7 = `Latex-Tutorial-Eleno-v1_2.nav'.
+
+\tf@toc=\write8
+\openout8 = `Latex-Tutorial-Eleno-v1_2.toc'.
+
+\tf@snm=\write9
+\openout9 = `Latex-Tutorial-Eleno-v1_2.snm'.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1031.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1031.
+ (./Latex-Tutorial-Eleno-v1_2.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1031.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1031.
+
+Package rerunfilecheck Info: File `Latex-Tutorial-Eleno-v1_2.out' has not chang
+ed.
+(rerunfilecheck)             Checksum: 81F5B5AC54A1EA75253310538CD48969;1265.
+ ) 
+Here is how much of TeX's memory you used:
+ 37912 strings out of 492623
+ 731377 string characters out of 6137990
+ 1342504 words of memory out of 5000000
+ 40963 multiletter control sequences out of 15000+600000
+ 593415 words of font info for 168 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 89i,19n,122p,1028b,2825s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texmf/
+fonts/enc/dvips/base/8r.enc}</usr/share/texmf/fonts/type1/public/amsfonts/cm/cm
+ex10.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/shar
+e/texmf/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf/fonts/type1/
+public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public/mathpazo/fpl
+mr.pfb></usr/share/texmf/fonts/type1/public/mathpazo/fplmri.pfb></usr/share/tex
+mf/fonts/type1/public/cm-super/sftt0800.pfb></usr/share/texmf/fonts/type1/publi
+c/cm-super/sftt0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1000.
+pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1095.pfb></usr/share/texm
+f/fonts/type1/public/cm-super/sftt1440.pfb></usr/share/texmf/fonts/type1/urw/pa
+latino/uplb8a.pfb></usr/share/texmf/fonts/type1/urw/palatino/uplr8a.pfb></usr/s
+hare/texmf/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on Latex-Tutorial-Eleno-v1_2.pdf (27 pages, 1439367 bytes).
+PDF statistics:
+ 1472 PDF objects out of 1728 (max. 8388607)
+ 1334 compressed objects within 14 object streams
+ 93 named destinations out of 1000 (max. 500000)
+ 344 words of extra memory for PDF output out of 10000 (max. 10000000)
+
